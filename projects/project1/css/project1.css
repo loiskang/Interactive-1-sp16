@@ -1,0 +1,26 @@
+body{ 
+	background-color: #FFE4E1;
+
+}
+#container {
+	width: 1200px;
+	height: 3200px;
+	background-color: white;
+	text-align: center;
+	float: center;
+	margin: auto;
+}
+
+h2 {
+	font-family: Didot;
+	font-size: 150px;
+	
+
+}
+
+h3 { }
+
+p { 
+	font-family: Futura;
+	font-size: 12px;
+}
