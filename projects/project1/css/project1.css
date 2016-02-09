@@ -1,26 +1,144 @@
 body{ 
-	background-color: #FFE4E1;
+	background-color: #008ae6;
+	
+
 
 }
 #container {
 	width: 1200px;
-	height: 3200px;
+	height: 3400px;
 	background-color: white;
-	text-align: center;
 	float: center;
 	margin: auto;
+
+}
+
+#apple {
+	width: 1100px;
+	height: 150px;
+	background-color: #FF1493;
+	margin-left: 50px;
+	text-align:center;
+	color: white;
+
+
+
+}
+#pencil {
+	width: 450px;
+	height: 3000px;
+	background-color:white;
+	float:left;
+	padding-left: 30px;
+	margin-left: 20px;
+}
+
+#blue {
+	width:300px;
+	height:300px;
+	background-color: #00CED1;
+	color: white;
+	font-size: 34px;
+
+
+	
+}
+#jeff {
+	width: 300px;
+	height: 400px;
+}
+
+#michael {
+	width: 400px;
+	height: 300px;
+}
+
+#food {
+	width: 400px;
+	height: 300px;
+}
+
+#yellow{
+	width: 400px;
+	height: 300px;
+}
+
+#purple {
+	width:400px;
+	height:400px;
+	
+}
+
+#picture {
+	width: 300px;
+	height: 340px;
+
+
+}
+
+#hello {
+	width: 400px;
+	height: 300px;
+
+}
+
+#bye {
+	width: 300px;
+	height: 400px;
+}
+
+#stuff {
+	width: 700px;
+	height: 3100px;
+	float:right;
+	background-color: white;
+
+
+
 }
 
 h2 {
 	font-family: Didot;
-	font-size: 150px;
+	font-size: 120px;
+	line-height: 1em;
 	
+	
+}
+
+
+h3 { 
+	font-family: Garamond;
+	line-height: .4em;
+	color: #00e6ac;
+	text-decoration: underline;
+	font-size: 25px;
 
 }
 
-h3 { }
+h4 {
+	font-family: Din Condensed;
+	font-size: 42px;
+}
 
 p { 
 	font-family: Futura;
 	font-size: 12px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
