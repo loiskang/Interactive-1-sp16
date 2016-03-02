@@ -1,0 +1,179 @@
+body {
+	background: url(../images/funtype.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#box {
+	width: 200px;
+	height: 400px;
+	background: pink;
+	margin: 20px;
+	float:left;
+	opacity: .9;
+
+
+}
+
+#circle {
+	height: 60px;
+	width: 60px;
+	border-radius: 60%;
+	background: #8EE5EE;
+	float: left;
+	margin: 10px;
+}
+
+#blue {
+	height: 100px;
+	width: 100px;
+	background: blue;
+	float: left;
+	margin-right: 300px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 10px 4px 3px 10px;
+	z-index: 0;
+
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px red;
+	float: left;
+}
+
+#hello {
+	width: 700px;
+	height: 700px;
+	background: #8EE5EE;
+	float: right;
+	margin-top: 40px;
+	margin:right 40px;
+	
+}
+
+
+#diamond {
+	width: 0;
+	height: 0;
+	border: 200px solid transparent;
+	border-bottom-color: #FF9999;
+	position: relative;
+	top: -200px;
+	margin: 20px;
+	
+	
+
+}
+	#diamond:after {
+	content: '';
+	position: absolute;
+	left: -200px;
+	top: 200px;
+	width: 0;
+	height: 0;
+	border: 200px solid transparent;
+	border-top-color: #FF9999;
+	
+}
+
+#orange {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	float: left;
+	transform: rotate(45deg);
+	margin: 10px;
+
+}
+
+#blah {
+	height: 200px;
+	width: 200px;
+	border-radius: 200%;
+	background: orange;
+	float: left;
+	margin-top: 200px;
+
+}
+
+#purple { 
+	height: 200px;
+	width: 200px;
+	border-radius: 200%;
+	background: #FF1493;
+	float: left;
+	margin-left: 300px;
+
+}
+
+#bye {
+	height: 300px;
+	width: 400px;
+	float: right;
+	overflow: absolute;
+	z-index: 10;
+	
+	
+}
+
+#low {
+	width: 300px;
+	height: 400px;
+	float: left;
+	overflow: absolute;
+	z-index: 10;
+}
+
+#high {
+	width: 400px;
+	height: 300px;
+	float: left;
+	overflow: absolute;
+	z-index: 0;
+	
+
+}
+
+#lazy {
+	width: 450px;
+	height: 450px;
+	overflow: absolute;
+	float: right;
+	transform: rotate(45deg);
+	background: #7FFFD4;
+
+}
+
+#green {
+	width: 400px;
+	height: 400px;
+	background: green;
+	transform: rotate(60deg);
+	opacity: .9;
+	overflow: absolute;
+}
+
+#your {
+	width: 450px;
+	height: 450px;
+	overflow: absolute;
+	float: right;
+	transform: rotate(60deg);
+	background: green;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
