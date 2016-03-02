@@ -24,6 +24,7 @@ body {
 	background: #8EE5EE;
 	float: left;
 	margin: 10px;
+	
 }
 
 #blue {
@@ -31,11 +32,12 @@ body {
 	width: 100px;
 	background: blue;
 	float: left;
-	margin-right: 300px;
-	margin-bottom: 20px;
-	margin-left: 20px;
+	margin-top: 200px;
+	margin-left: 100px;
 	border-radius: 10px 4px 3px 10px;
 	z-index: 0;
+	transform: rotate(45deg);
+
 
 }
 
@@ -46,15 +48,18 @@ body {
 	border-right: 50px solid transparent;
 	border-bottom: 100px red;
 	float: left;
+
 }
 
 #hello {
-	width: 700px;
-	height: 700px;
+	width: 400px;
+	height: 400px;
 	background: #8EE5EE;
 	float: right;
 	margin-top: 40px;
 	margin:right 40px;
+	transform: rotate(45deg);
+
 	
 }
 
@@ -67,6 +72,7 @@ body {
 	position: relative;
 	top: -200px;
 	margin: 20px;
+
 	
 	
 
@@ -80,6 +86,7 @@ body {
 	height: 0;
 	border: 200px solid transparent;
 	border-top-color: #FF9999;
+
 	
 }
 
@@ -101,6 +108,7 @@ body {
 	float: left;
 	margin-top: 200px;
 
+
 }
 
 #purple { 
@@ -110,25 +118,30 @@ body {
 	background: #FF1493;
 	float: left;
 	margin-left: 300px;
-
+	
 }
 
 #bye {
 	height: 300px;
 	width: 400px;
-	float: right;
+	float: left;
 	overflow: absolute;
-	z-index: 10;
-	
+	z-index: 0;
+	margin-left: 400px;
+	margin-top: 100px;
+
 	
 }
 
 #low {
-	width: 300px;
+	width: 400px;
 	height: 400px;
 	float: left;
 	overflow: absolute;
 	z-index: 10;
+	transform: rotate(45deg);
+
+
 }
 
 #high {
@@ -137,6 +150,7 @@ body {
 	float: left;
 	overflow: absolute;
 	z-index: 0;
+
 	
 
 }
@@ -149,6 +163,8 @@ body {
 	transform: rotate(45deg);
 	background: #7FFFD4;
 
+
+
 }
 
 #green {
@@ -158,6 +174,7 @@ body {
 	transform: rotate(60deg);
 	opacity: .9;
 	overflow: absolute;
+	
 }
 
 #your {
@@ -168,8 +185,29 @@ body {
 	transform: rotate(60deg);
 	background: green;
 	margin: 0px;
+	
 }
 
+#mine {
+	width: 400px;
+	height: 400px;
+	overflow: absolute;
+	transform: rotate(45deg);
+	background: yellow;
+	
+}
+
+#big {
+	height: 500px;
+	width: 500px;
+	border-radius: 500%;
+	background: #FF1493;
+	overflow: absolute;
+	margin-left: 650px;
+	margin-top: -1000px;
+	opacity: .6;
+	
+}
 
 
 
