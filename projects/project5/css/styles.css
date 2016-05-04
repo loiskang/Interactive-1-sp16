@@ -176,7 +176,7 @@ body {
 
 #bath {
 	
-	margin-left: 2200px;
+	margin-left: 2000px;
 	margin-top: 300px
 
 }
@@ -196,6 +196,18 @@ body {
 
 }
 
+#you {
+	font-size: 80px;
+	font-family: futura;
+	color: pink;
+	margin-top: -600px;
+	margin-left: 100px;
+}
+
+#heart {
+	
+
+}
 
 
 
