@@ -1,7 +1,25 @@
+p {
+	background-color: pink;
+
 h1 {
 	font-family: Futura;
 }
 
 h2 {
 	font-family: Futura;
+}
+
+#body {
+	font-family: Avenir;
+	font-size: 11pt;
+
+} 
+#blah {
+	width: 400px;
+	height: 500px;
+}
+
+#four {
+	width: 400px;
+	height: 500px;
 }
