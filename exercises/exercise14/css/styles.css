@@ -1,0 +1,48 @@
+body {
+	background: #000000;
+}
+
+#container {
+	width: 1200px;
+	height: 1000px;
+	margin: auto;
+}
+
+@font-face {
+	font-family:'Didot';
+	src: url("Didot.ttc");
+}
+
+@font-face {
+	font-family:'Chalkduster';
+	src: url("Chalkduster.ttf");
+}
+
+@font-face {
+	font-family:'futura';
+	src: url("futura.ttf");
+}
+
+#main {
+	font-family: Didot;
+	font-size: 100px;
+	color: #ff80aa;
+	text-align: center;
+}
+
+#main2 {
+	font-family: Chalkduster;
+	font-size: 150px;
+	text-align: center;
+	margin-top: 50px;
+	color: #80dfff;
+}
+
+#box3 {
+	font-family: futura;
+	font-size: 200px;
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+
+}

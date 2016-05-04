@@ -1,0 +1,224 @@
+body {
+	background: url(../images/funtype.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	width: 1200px;
+	height: 2000px;
+	float: left;
+	margin: auto;
+}
+
+
+#box {
+	width: 200px;
+	height: 400px;
+	background: pink;
+	margin: 20px;
+	float:left;
+	opacity: .9;
+
+
+}
+
+#circle {
+	height: 60px;
+	width: 60px;
+	border-radius: 60%;
+	background: #8EE5EE;
+	float: left;
+	margin: 10px;
+	
+}
+
+#blue {
+	height: 100px;
+	width: 100px;
+	background: blue;
+	float: left;
+	margin-top: 200px;
+	margin-left: 100px;
+	border-radius: 10px 4px 3px 10px;
+	z-index: 0;
+	transform: rotate(45deg);
+
+
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px red;
+	float: left;
+
+}
+
+#hello {
+	width: 400px;
+	height: 400px;
+	background: #8EE5EE;
+	float: right;
+	margin-top: 40px;
+	margin:right 40px;
+	transform: rotate(45deg);
+
+	
+}
+
+
+#diamond {
+	width: 0;
+	height: 0;
+	border: 200px solid transparent;
+	border-bottom-color: #FF9999;
+	position: relative;
+	top: -200px;
+	margin: 20px;
+
+	
+	
+
+}
+	#diamond:after {
+	content: '';
+	position: absolute;
+	left: -200px;
+	top: 200px;
+	width: 0;
+	height: 0;
+	border: 200px solid transparent;
+	border-top-color: #FF9999;
+
+	
+}
+
+#orange {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	float: left;
+	transform: rotate(45deg);
+	margin: 10px;
+
+}
+
+#blah {
+	height: 200px;
+	width: 200px;
+	border-radius: 200%;
+	background: orange;
+	float: left;
+	margin-top: 200px;
+
+
+}
+
+#purple { 
+	height: 200px;
+	width: 200px;
+	border-radius: 200%;
+	background: #FF1493;
+	float: left;
+	margin-left: 300px;
+	
+}
+
+#bye {
+	height: 300px;
+	width: 400px;
+	float: left;
+	overflow: absolute;
+	z-index: 0;
+	margin-left: 400px;
+	margin-top: 100px;
+
+	
+}
+
+#low {
+	width: 400px;
+	height: 400px;
+	float: left;
+	overflow: absolute;
+	z-index: 10;
+	transform: rotate(45deg);
+
+
+}
+
+#high {
+	width: 400px;
+	height: 300px;
+	float: left;
+	overflow: absolute;
+	z-index: 0;
+
+	
+
+}
+
+#lazy {
+	width: 450px;
+	height: 450px;
+	overflow: absolute;
+	float: right;
+	transform: rotate(45deg);
+	background: #7FFFD4;
+
+
+
+}
+
+#green {
+	width: 400px;
+	height: 400px;
+	background: green;
+	transform: rotate(60deg);
+	opacity: .9;
+	overflow: absolute;
+	
+}
+
+#your {
+	width: 450px;
+	height: 450px;
+	overflow: absolute;
+	float: right;
+	transform: rotate(60deg);
+	background: green;
+	margin: 0px;
+	
+}
+
+#mine {
+	width: 400px;
+	height: 400px;
+	overflow: absolute;
+	transform: rotate(45deg);
+	background: yellow;
+	
+}
+
+#big {
+	height: 500px;
+	width: 500px;
+	border-radius: 500%;
+	background: #FF1493;
+	overflow: absolute;
+	margin-left: 650px;
+	margin-top: -1000px;
+	opacity: .6;
+	
+
+
+
+
+
+
+

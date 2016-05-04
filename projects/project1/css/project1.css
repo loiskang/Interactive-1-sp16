@@ -6,7 +6,7 @@ body{
 }
 #container {
 	width: 1200px;
-	height: 3400px;
+	height: 3300px;
 	background-color: white;
 	float: center;
 	margin: auto;
@@ -25,8 +25,8 @@ body{
 
 }
 #pencil {
-	width: 450px;
-	height: 3000px;
+	width: 420px;
+	height: 3100px;
 	background-color:white;
 	float:left;
 	padding-left: 30px;

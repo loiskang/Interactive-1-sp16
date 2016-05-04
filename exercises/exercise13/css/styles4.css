@@ -1,0 +1,173 @@
+body {
+   background: #80ffbf;
+}
+
+
+/* This is the animation code. */
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 300px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   font-family: Futura;
+   font-size: 60px;
+   background: #99ffff;
+   opacity: .8;
+   animation-iteration-count: infinite;
+}
+
+.colorbox2 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 500px;
+   height: 200px;
+   width: 300px;
+   font-family: Helvetica;
+   opacity: .8;
+   font-size: 100px;
+   animation-iteration-count: infinite;
+}
+
+.colorbox3 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 100px;
+   margin-top: 100px;
+   height: 200px;
+   width: 300px;
+   font-family: Helvetica-bold;
+   font-size: 400px;
+   opacity: .8;
+   animation-iteration-count: infinite;
+}
+
+.colorbox4 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 600px;
+   position: absolute;
+   height: 200px;
+   width: 300px;
+   font-family: Futura;
+   font-size: 400px;
+   animation-iteration-count: infinite;
+}
+
+.colorbox5 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: .5s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 700px;
+   border-radius: 75%;
+   height: 200px;
+   position: absolute;
+   width: 200px;
+   background:  #ffb3b3;
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+
+.background2 {
+  border-radius: 20px;
+  height: 300px;
+  position: relative;
+  min-width: 1000px;
+}
+
+.background2:hover .dot2{
+  animation: slide 2s linear;
+   animation-iteration-count: infinite;
+}
+
+.dot2 {
+  font-family: Helvetica-bold;
+  font-size: 50px;
+  border-radius: 75%;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: #ffcc99;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+}
+
+.circle:hover {
+   background: #80aaff;
+  border-radius: 10px;
+}
+
+.background {
+  border-radius: 30px;
+  height: 200px;
+  position: relative;
+  min-width: 538px;
+  width: 600px;
+  font-family: Futura;
+}
+
+.background:hover .dot {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot {
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+

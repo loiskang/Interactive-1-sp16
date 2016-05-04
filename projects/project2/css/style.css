@@ -1,0 +1,30 @@
+p {
+	font-family: futura;
+	font-size: 10pt;
+	width: 600px;
+	height: 300px;
+	line-height: 20px;
+
+	
+
+}
+
+#write {
+	width: 600px;
+	height: 300px;
+	background: pink;
+	float: center;
+	overflow: absolute;
+	margin-left: 350px;
+	margin-top: 180px;
+}
+
+#knew {
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin-left: 600px;
+	font-family: futura;
+	font-size: 11pt;
+}
+
